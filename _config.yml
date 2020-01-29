@@ -10,7 +10,7 @@ title:            Brandon's Blog
 tagline:          'a daily blog'
 description:      "One Java Student's Journey to Becoming a Junior Software Engineer"
 url:              https://beefan.github.io/
-baseurl:          https://brandonfannin.com
+baseurl:          https://www.brandonfannin.com
 
 author:
   name:           'Brandon Fannin'
