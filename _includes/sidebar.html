@@ -26,10 +26,13 @@
         {% endif %}
       {% endfor %}
 
-      <p class="sidebar-nav-item" >Connect with me: </p>
-      <a class="sidebar-nav-item" href="https://github.com/beefan">Github</a>
-      <a class="sidebar-nav-item" href="https://www.linkedin.com/in/brandon-fannin/">LinkedIn</a>
-      <span class="sidebar-nav-item">Currently v{{ site.version }}</span>
+      <span class="sidebar-nav-item">Connect with me: </span>
+      <a class="sidebar-nav-item" href="mailto:b@brandonfannin.com?subject=My%20old%20friend&amp;body=I've%20come%20to%20talk%20with%20you%20again"><i class="fas fa-envelope-square"></i></a>
+      <a class="sidebar-nav-item" href="https://www.linkedin.com/in/brandon-fannin/"><i class="fab fa-linkedin"></i></a>
+      <a class="sidebar-nav-item" href="https://github.com/beefan"><i class="fab fa-github-square"></i></a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}public/brandonfannin_softwaredev.pdf" download><i class="far fa-file"></i> resume</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}tech-elevator-blog"><i class="fas fa-location-arrow"></i></i> coding bootcamp blog</a>
+
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

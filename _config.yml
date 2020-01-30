@@ -6,9 +6,9 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            Brandon's Blog
-tagline:          'a daily blog'
-description:      "One Java Student's Journey to Becoming a Junior Software Engineer"
+title:            Brandon Fannin
+tagline:          'a programmer'
+description:      "Four time software development intern. Distance runner. Voracious learner & proficient communicator. Curiosity driven grit. "
 url:              https://beefan.github.io/
 baseurl:          https://www.brandonfannin.com/
 
