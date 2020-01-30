@@ -2,11 +2,11 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <img class="profile-pic" src="{{ site.baseurl }}public/me.jpg" alt="brandon's face" />
-      <h2>
+      <h1>
         <a href="{{ site.baseurl }}">
           {{ site.title }}
         </a>
-      </h2>
+      </h1>
       <p class="lead">{{ site.description }}</p>
     </div>
 
@@ -27,15 +27,14 @@
         {% endif %}
       {% endfor %}
 
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}tech-elevator-blog"><i class="fas fa-location-arrow"></i></i> coding bootcamp blog</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}public/brandonfannin_softwaredev.pdf" download><i class="far fa-file"></i> resume</a>
       <span class="icons-flex">
       <span class="sidebar-nav-item">Connect: </span>
-      <a class="sidebar-nav-item" href="mailto:b@brandonfannin.com?subject=My%20old%20friend&amp;body=I've%20come%20to%20talk%20with%20you%20again"><i class="fas fa-envelope-square"></i></a>
-      <a class="sidebar-nav-item" href="https://www.linkedin.com/in/brandon-fannin/"><i class="fab fa-linkedin"></i></a>
-      <a class="sidebar-nav-item" href="https://github.com/beefan"><i class="fab fa-github-square"></i></a>
+      <a class="sidebar-nav-item icon" href="mailto:b@brandonfannin.com?subject=My%20old%20friend&amp;body=I've%20come%20to%20talk%20with%20you%20again"><i class="fas fa-envelope-square"></i></a>
+      <a class="sidebar-nav-item icon" href="https://www.linkedin.com/in/brandon-fannin/"><i class="fab fa-linkedin"></i></a>
+      <a class="sidebar-nav-item icon" href="https://github.com/beefan"><i class="fab fa-github-square"></i></a>
       </span>
-      <a class="sidebar-nav-item" href="{{ site.baseurl }}public/brandonfannin_softwaredev.pdf" download><i class="far fa-file"></i> resume</a>
-      <a class="sidebar-nav-item" href="{{ site.baseurl }}tech-elevator-blog"><i class="fas fa-location-arrow"></i></i> coding bootcamp blog</a>
-
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

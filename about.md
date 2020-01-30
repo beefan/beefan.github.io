@@ -4,17 +4,13 @@ title: About
 ---
 
 <p class="message">
-  I'm a new developer and this is my blog! 
+  Hey I'm Brandon Fannin.
 </p>
 
-I'm still *learning* markup. The theme I forked was made by [@mdo](https://twitter.com/mdo).
+## This is a place 
 
-There are currently two themes built on Poole:
-
-## Why you should read my blog
-
-* It's pretty awesome
-* I'll talk about my pets constantly 
-* My jokes are terrible
+* where I could type a detailed about
+* where I could place redundant information
+* where I could do virtually nothing
 
 Thanks for reading!
