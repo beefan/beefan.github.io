@@ -1,6 +1,6 @@
 ---
 layout: post
-title:
+title: Brandon Fannin
 ---
 # [Brandon Fannin](https://www.linkedin.com/in/brandon-fannin/)
   > "Leaders are not, as we are often led to think, people who go along with huge crowds following them. Leaders are people who go their own way without caring, or even looking to see, whether anyone is following them. " - John Holt
