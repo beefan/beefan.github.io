@@ -1,0 +1,144 @@
+
+html {
+    width: 1000px;
+    height: 1325px;
+    border: 2px solid black;
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+    border-radius: 3x;
+    background-color:rgb(250, 250, 253);
+}
+
+h1 {
+   font-family: 'Alegreya', serif;
+    font-size: 3.5rem;
+    text-align: center;
+    margin-block-start: 30px;
+    margin-block-end: 30px;
+    text-shadow: 0px 1px 1px #4d4d4d;
+}
+
+.header {
+    border-bottom: 1px solid rgb(32, 16, 34);
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    background-color: rgb(216, 218, 252);
+    border-radius: 3px;
+}
+
+.header .contact ul {
+   list-style: none;
+   background-color: rgb(250, 250, 253);
+   border-radius: 0px 0px 3px 3px;
+   padding-right:20px;
+   padding-top:20px;
+   padding-bottom: 20px;
+   font-size:.9rem;
+}
+
+.contact {
+    margin-top: -20px;
+}
+
+
+.summary {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+
+.summary p {
+    margin-block-start: 15px;
+    margin-block-end: 15px;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-areas: "main skills";
+}
+
+.inner-main {
+    grid-area: main;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+
+.inner-main p {
+    margin-block-start: 0px;
+    margin-block-end: 5px;
+    font-size: .85rem;
+    margin-left: -53px;
+}
+
+.inner-main h3 {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    font-size: .9rem;
+}
+
+.tech-skills {
+    grid-area: skills;
+    margin-right: 5px;
+    padding-left: 10px;
+    height: 80%;
+    margin-top: 30%;
+    text-align: right;
+    border-left: 1px solid rgb(141, 140, 140);
+}
+
+.tech-skills h3 {
+    margin-block-start: .6em;
+    margin-block-end: .6em;
+}
+
+.education ol li, .education ol li p {
+    margin: 0px;
+}
+
+.education h3 {
+    border-bottom: 1px solid black;
+}
+
+.inner-main ol {
+    margin-block-start: 0px;
+}
+
+.date {
+    float: right;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+.tech-skills ul {
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
+.tech-skills h4 {
+    background-color: #9bb1f8;
+    border-radius: 3px 0px 0px 3px;
+    padding: 5px;
+    padding-left: 15px;
+    margin-right: -13px;
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
+.highlight {
+    background-color: #9bb1f8;
+    padding-right: 10px;
+    border-radius: 0px 3px 3px 0px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 30px;
+}
+
+.indent {
+    padding-left: 50px;
+}
+
