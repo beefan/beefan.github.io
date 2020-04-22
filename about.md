@@ -13,6 +13,6 @@ Then I did some soul searching. I participated in the [WWOOFing program](https:/
 
 But I couldn't stay away from software. Small farmers have gaps in organization that can be filled by software. Critical analysis of literature can benefit from modern advances in machine learning and natural language processing. I completed [Tech Elevator](https://www.techelevator.com) coding bootcamp to renew old skills and gain some new ones. 
 
-My long-term career goal is to work in the machine learning space to humanize data backed decision making and create software to aid farmers in sustainbility. 
+My long-term career goal is to work in the machine learning space to humanize data backed decision making and create software to aid farmers in sustainability. 
 
-Outside of programming, I like camping, backpacking, hiking, running, cooking, and gardening.
+Outside of programming I like camping, backpacking, hiking, running, cooking, and gardening.
