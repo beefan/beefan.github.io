@@ -2,21 +2,23 @@
 html {
     width: 1000px;
     height: 1325px;
-    border: 2px solid black;
-    font-family: 'EB Garamond', serif;
-    font-size: 22px;
+    border: 5px solid #264653;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 21px;
     border-radius: 3x;
-    background-color:rgb(250, 250, 253);
+    background-color:#fafafa;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
     margin-left: 8%;
 }
 
 h1 {
-   font-family: 'Alegreya', serif;
-    font-size: 3.5rem;
+    font-size: 3rem;
+    color: #f4a261;
     text-align: center;
-    margin-block-start: 30px;
-    margin-block-end: 30px;
-    text-shadow: 0px 1px 1px #4d4d4d;
+    margin-block-start: 60px;
+    margin-block-end: 60px;
+    text-shadow: 0px 1px 1px #264653;
 }
 
 .header {
@@ -24,37 +26,49 @@ h1 {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-evenly;
-    background-color: rgb(216, 218, 252);
+    background-color: #264653;
     border-radius: 3px;
 }
 
-.header .contact ul {
-   list-style: none;
-   background-color: rgb(250, 250, 253);
-   border-radius: 0px 0px 3px 3px;
-   padding-right:20px;
-   padding-top:20px;
-   padding-bottom: 20px;
-   font-size:.9rem;
-}
-
 .contact {
-    margin-top: -20px;
+    font-size: .9rem;
+    width: 100%;
+    margin-top: 14%;
+    margin-bottom: 19%;
 }
 
+li > p > .fa-asterisk {
+    margin-left: -20px;
+    padding-right: 5px;
+}
+
+div.meaning-of-asterisk {
+    
+    text-align: right;
+    margin-top: -25px;
+}
+
+div.meaning-of-asterisk > p {
+    font-size: 0.7rem;
+    color: rgb(131, 5, 5);
+}
+
+.red {
+    
+}
 
 .summary {
     text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    font-weight: bold;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #f4a261;
+    margin-top: 5px;
+    margin-bottom: 15px;
 }
-
-.summary p {
-    margin-block-start: 15px;
-    margin-block-end: 15px;
+.summary div {
+    font-size: .9rem;
+    padding: 10px;
 }
-
 .main {
     display: grid;
     grid-template-columns: 3fr 1fr;
@@ -70,7 +84,7 @@ h1 {
 .inner-main p {
     margin-block-start: 0px;
     margin-block-end: 5px;
-    font-size: .85rem;
+    font-size: .7rem;
     margin-left: -53px;
 }
 
@@ -80,27 +94,51 @@ h1 {
     font-size: .9rem;
 }
 
-.tech-skills {
+#strip {
     grid-area: skills;
+    width: 100%;
+    font-size: .9rem;
+    margin-left: -8px;
+}
+
+#strip p {
+    font-size: .7rem;
+}
+
+.tech-skills {
     margin-right: 5px;
     padding-left: 10px;
-    height: 80%;
-    margin-top: 30%;
+    margin-top: 5px;
     text-align: right;
     border-left: 1px solid rgb(141, 140, 140);
+
 }
 
 .tech-skills h3 {
     margin-block-start: .6em;
     margin-block-end: .6em;
+    font-size: .9rem;
 }
 
-.education ol li, .education ol li p {
-    margin: 0px;
+.eduction {
+    margin-top: -10px;
+    border-left: 1px solid rgb(141, 140, 140);
+
 }
 
-.education h3 {
-    border-bottom: 1px solid black;
+.eduction h3 {
+    text-align: right;
+    font-size: .9rem;
+}
+.eduction p {
+    margin-left: -30px;
+    text-align: right;
+}
+.education p .date {
+    text-align: right;
+}
+.eduction ol li {
+    font-size: .7rem;
 }
 
 .inner-main ol {
@@ -119,27 +157,89 @@ ul, ol {
     margin-block-start: 10px;
     margin-block-end: 10px;
 }
-
+.tech-skills ul li {
+   font-size: .7rem;
+}
 .tech-skills h4 {
-    background-color: #9bb1f8;
+    background-color: #2a9d8f;
     border-radius: 3px 0px 0px 3px;
     padding: 5px;
     padding-left: 15px;
-    margin-right: -13px;
+    margin-right: -21px;
     margin-block-start: 10px;
     margin-block-end: 10px;
+    font-size: .9rem;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .highlight {
-    background-color: #9bb1f8;
+    background-color: #e9c464;
     padding-right: 10px;
     border-radius: 0px 3px 3px 0px;
-    padding-top: 3px;
-    padding-bottom: 3px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     padding-left: 30px;
 }
 
+.highlight-blue {
+    background-color: #2a9d8f;
+    padding-right: 10px;
+    border-radius: 0px 3px 3px 0px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+}
+
+#education-highlight {
+    background-color: #2a9d8f;
+    border-radius: 3px 0px 0px 3px;
+    padding: 5px;
+    margin-right: -16px;
+    text-align: left;
+}
+
+.education-highlight {
+    background-color: #e9c464;
+    border-radius: 3px 0px 0px 3px;
+    padding: 5px;
+    margin-right: -21px;
+}
+
 .indent {
-    padding-left: 50px;
+    padding-left: 30px;
+    padding-bottom: 10px;
+    margin-block-end: 15px;
+    line-height: 1.2rem;
+    font-size: .9rem;
+}
+
+.cover-sub {
+    margin-left: 50px;
+    margin-block-start: .4em;
+    margin-block-end: .4em;
+}
+
+.cover-title {
+   font-family: 'EB Garamond', serif;
+   margin-block-start: .2em;
+   margin-block-end: .2em;
+}
+
+.cover-body {
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.cover-body date {
+    margin-block-start: 0em;
+}
+
+.cover-list li {
+   list-style-type: disc;
+   margin-bottom: 10px;
 }
 
